@@ -1,0 +1,31 @@
+{
+  "recommendations": [
+    "PKief.material-icon-theme",
+    "zhuangtongfa.material-theme",
+    "vue.volar",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker",
+    "eamodio.gitlens",
+    "astro-build.astro-vscode",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "naumovs.color-highlight",
+    "kamikillerto.vscode-colorize",
+    "ms-azuretools.vscode-docker",
+    "mikestead.dotenv",
+    "mrmlnc.vscode-duplicate",
+    "kumar-harsh.graphql-for-vscode",
+    "wix.vscode-import-cost",
+    "ms-vsliveshare.vsliveshare",
+    "christian-kohler.npm-intellisense",
+    "quicktype.quicktype",
+    "christian-kohler.path-intellisense",
+    "csstools.postcss",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "syler.sass-indented",
+    "mrmlnc.vscode-scss",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
