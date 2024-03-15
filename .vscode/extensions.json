@@ -1,31 +1,36 @@
 {
   "recommendations": [
-    "PKief.material-icon-theme",
+    // Theme
     "zhuangtongfa.material-theme",
-    "vue.volar",
-    "dbaeumer.vscode-eslint",
-    "streetsidesoftware.code-spell-checker",
+    "PKief.material-icon-theme",
+    "antfu.iconify",
+
+    // Git
     "eamodio.gitlens",
-    "astro-build.astro-vscode",
-    "formulahendry.auto-close-tag",
+    "mhutchie.git-graph",
+
+    // Tools
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+
+    // Editor helpers
+    "YoavBls.pretty-ts-errors",
+    "bradlc.vscode-tailwindcss",
+    "usernamehw.errorlens",
+    "sdras.vue-vscode-snippets",
+    "antfu.goto-alias",
     "formulahendry.auto-rename-tag",
-    "aaron-bond.better-comments",
-    "naumovs.color-highlight",
     "kamikillerto.vscode-colorize",
-    "ms-azuretools.vscode-docker",
-    "mikestead.dotenv",
     "mrmlnc.vscode-duplicate",
-    "kumar-harsh.graphql-for-vscode",
     "wix.vscode-import-cost",
-    "ms-vsliveshare.vsliveshare",
-    "christian-kohler.npm-intellisense",
-    "quicktype.quicktype",
-    "christian-kohler.path-intellisense",
+
+    // Other
+    "ms-azuretools.vscode-docker",
     "csstools.postcss",
-    "esbenp.prettier-vscode",
-    "yoavbls.pretty-ts-errors",
-    "syler.sass-indented",
-    "mrmlnc.vscode-scss",
-    "bradlc.vscode-tailwindcss"
+    "Prisma.prisma",
+    "antfu.unocss",
+    "Vue.volar",
   ]
 }
