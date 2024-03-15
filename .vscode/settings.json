@@ -17,7 +17,7 @@
   },
   "editor.tabSize": 2,
   "editor.find.addExtraSpaceOnTop": true,
-  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.enabled": false,
   "editor.suggestSelection": "first",
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -93,8 +93,6 @@
     "**/tmp": true,
     "**/yarn.lock": true
   },
-
-  "git.path": "/opt/homebrew/Cellar/git/2.33.0/bin/git",
 
   "breadcrumbs.showArrays": false,
   "breadcrumbs.showBooleans": false,
