@@ -316,12 +316,12 @@
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+[",
+    "key": "cmd+j",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+j",
+    "key": "cmd+l",
     "command": "workbench.action.togglePanel"
   },
   {
@@ -406,5 +406,118 @@
     "key": "cmd+w",
     "command": "-workbench.action.terminal.killEditor",
     "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "cmd+o",
+    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "cmd+o",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.terminal.openDetectedLink",
+    "when": "terminalFocus && terminalHasBeenCreated"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.gotoSymbol",
+    "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-editor.action.accessibleViewGoToSymbol",
+    "when": "accessibilityHelpIsShown && accessibleViewGoToSymbolSupported || accessibleViewGoToSymbolSupported && accessibleViewIsShown"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "cmd+l",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "shift+cmd+h",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-addCursorsAtSearchResults",
+    "when": "fileMatchOrMatchFocus && searchViewletVisible"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-selectAllSearchEditorMatches",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+k l",
+    "command": "workbench.action.closeEditorsToTheRight"
+  },
+  {
+    "key": "cmd+k r",
+    "command": "-workbench.action.files.revealActiveFileInWindows"
+  },
+  {
+    "key": "cmd+k r",
+    "command": "revealFileInOS",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "alt+cmd+r",
+    "command": "-revealFileInOS",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "cmd+k h",
+    "command": "workbench.action.closeEditorsToTheLeft"
   }
 ]

@@ -23,7 +23,7 @@
   "editor.suggestSelection": "first",
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.lineNumbers": "on",
+  "editor.lineNumbers": "relative",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.minimap.enabled": false,
 
@@ -115,4 +115,6 @@
   "breadcrumbs.showTypeParameters": false,
   "breadcrumbs.showVariables": false,
   "breadcrumbs.symbolPath": "off",
+
+  "css.lint.unknownAtRules": "ignore"
 }
