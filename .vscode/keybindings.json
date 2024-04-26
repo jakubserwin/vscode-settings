@@ -571,5 +571,15 @@
     "key": "shift+cmd+j",
     "command": "-workbench.action.search.toggleQueryDetails",
     "when": "inSearchEditor || searchViewletFocus"
+  },
+  {
+    "key": "shift+cmd+k",
+    "when": "codeActionMenuVisible",
+    "command": "selectPrevCodeAction"
+  },
+  {
+      "key": "shift+cmd+j",
+      "when": "codeActionMenuVisible",
+      "command": "selectNextCodeAction"
   }
 ]
