@@ -9,15 +9,11 @@
     "command": "-workbench.action.splitEditor"
   },
   {
-    "key": "cmd+1",
-    "command": "workbench.action.openEditorAtIndex1"
-  },
-  {
     "key": "ctrl+1",
     "command": "-workbench.action.openEditorAtIndex1"
   },
   {
-    "key": "shift+cmd+2",
+    "key": "cmd+2",
     "command": "workbench.action.focusSecondEditorGroup"
   },
   {
@@ -25,15 +21,11 @@
     "command": "-workbench.action.focusSecondEditorGroup"
   },
   {
-    "key": "cmd+2",
-    "command": "workbench.action.openEditorAtIndex2"
-  },
-  {
     "key": "ctrl+2",
     "command": "-workbench.action.openEditorAtIndex2"
   },
   {
-    "key": "shift+cmd+1",
+    "key": "cmd+1",
     "command": "workbench.action.focusFirstEditorGroup"
   },
   {
@@ -322,7 +314,7 @@
   },
   {
     "key": "cmd+l",
-    "command": "workbench.action.togglePanel",
+    "command": "workbench.action.togglePanel"
   },
   {
     "key": "cmd+n",
@@ -399,7 +391,7 @@
   },
   {
     "key": "cmd+backspace",
-    "command": "workbench.action.terminal.killEditor",
+    "command": "workbench.action.terminal.killEditor"
   },
   {
     "key": "cmd+w",
@@ -581,5 +573,41 @@
       "key": "shift+cmd+j",
       "when": "codeActionMenuVisible",
       "command": "selectNextCodeAction"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.debug.nextConsole",
+    "when": "inDebugRepl"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+cmd+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+cmd+left",
+    "command": "-workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "cmd+r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-renameFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   }
 ]
